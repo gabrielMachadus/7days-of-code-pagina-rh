@@ -11,68 +11,61 @@
 <body id="container">
     <nav id="navbar">
         <div id="logo">
-            <img src="./images/logo.png" />
+            <img src="images/_Button base.svg" />
         </div>
         <div id="menu">
-            <ul>
-                <li class="item-menu"><a href="#">Home</a></li>
-                <li class="item-menu"><a href="#produtos"> Produtos</a></li>
-                <li class="item-menu"><a href="#recursos">Recursos</a></li>
-                <li class="item-menu"><a href="#sobre-nos">Sobre Nós</a></li>
-            </ul>
+            <a class="item-menu" href="#"> Home</a>
+            <a class="item-menu" href="#produtos"> Produtos</a>
+            <a class="item-menu" href="#recursos"> Recursos</a>
+            <a class="item-menu" href="#sobre-nos"> Sobre Nós</a>
         </div>
         <div id="botoes">
             <ul>
-                <li><button id="entrar">Entrar</button></li>
-                <li><button id="cadastrar">Cadastrar</button></li>
+                <li><button id="btn-entrar">Entrar</button></li>
+                <li><button id="btn-cadastrar">Cadastrar</button></li>
             </ul>
         </div>
 
     </nav>
     <main>
         <section id="sobre-nos">
-            <h4 class="destaque">Sobre nós</h4>
+            <br>
+            <h4 class="destaque-sobre">Sobre nós</h4>
             <h1>Por que somos diferentes ?</h1>
             <p class="descricao">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o
                 mundo a se
                 concentrarem naquilo que é realmente importante para elas.</p>
-            <ul>
-                <li class="card-inline">
+            <div class="sessao-bloco">
+                <div>
                     <h1 class="card-header">400+</h1>
                     <h4>Projetos concluídos</h4>
                     <p>Nós ajudamos a construir mais de 400 projetos incríveis.</p>
-                </li>
-
-
-                <li class="card-inline">
+                </div>
+                <div>
                     <h1 class="card-header">100+</h1>
-                    <div  class="card-body">
+                    <div>
                         <h4>Colaboradores</h4>
                         <p>Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
                     </div>
-                    
-                </li>
-
-
-                <li class="card-inline">
+                </div>
+                <div>
                     <h1 class="card-header">20k</h1>
                     <h4>Downloads</h4>
                     <p>Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
-                </li>
-
-
-                <li class="card-inline">
+                </div>
+                <div>
                     <h1 class="card-header">500+</h1>
                     <h4>Reviews 5 estrelas</h4>
                     <p>Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
-                </li>
-            </ul>
+                </div>
+            </div>
+            
         </section>
         <section id="vagas">
-            <h4 class="destaque">Temos Vagas abertas!</h4>
+            <h4 class="destaque-vagas">Vagas abertas!</h4>
             <h1>Estamos procurando talentos</h1>
             <p class="descricao"> Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
-            <img src="images/talentos.png" />
+            <img id="imagem-talentos"src="images/talentos.png" />
 
 
             <ul class="bloco-listagem">
@@ -126,6 +119,29 @@
 
             </ul>
         </section>
+        <section id="depoimentos">
+            <div>
+                <h4 id="destaque-depoimentos"> Veja o que nossos colaboradores falam sobre nós</h4>
+                <h1>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.
+                </h1>
+                <img src="images/julia.png" id="foto-colaborador"/>
+                <p>Júlia Castro</p>
+                
+                <p>Desenvolvedora Web</p>
+            </div>
+        </section>
+        <section id="oportunidades">
+            <div>
+                <h1>  Acompanhe as nossas oportunidades</h1>
+                <p>Seja o primeiro a saber quando novas vagas serão abertas!</p>
+                <input type="text" placeholder="Seu e-mail" id="input-email"><button id="btn-cadastrar-oportunidade">Cadastrar</button>
+            </div>
+
+        </section>
+
+
+
+
     </main>
     <footer>
         <p>Todos direitos reservados</p>
